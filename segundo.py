@@ -1,6 +1,8 @@
 import sys
 import csv
-# Estoy modificando desde la rama master y voy a pullear los cambios a local
+# we can change something in order to view the differences and so
+#filename = "./data.txt"
+#filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.txt"
 filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.csv"
 num_to_text = { 0 : 'zero', 1 : 'one', 2 : 'two', 3 : 'three', 4 : 'four', 5 : 'five',
           6 : 'six', 7 : 'seven', 8 : 'eight', 9 : 'nine', 10 : 'ten',
@@ -9,7 +11,8 @@ num_to_text = { 0 : 'zero', 1 : 'one', 2 : 'two', 3 : 'three', 4 : 'four', 5 : '
           19 : 'nineteen', 20 : 'twenty', 25: 'twenty five', 26: 'twenty six',
           30 : 'thirty', 40 : 'forty', 50 : 'fifty', 60 : 'sixty',
           70 : 'seventy', 80 : 'eighty', 90 : 'ninety' }
-
+# La verdad es que el tema de git no es para un momento.
+# Hay que dedicar tiempo a probar por uno mismo porque solo se entiende viendo cómo funciona
 
 try:
     f = open(filename, "r")
