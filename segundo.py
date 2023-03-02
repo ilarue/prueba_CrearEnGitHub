@@ -11,7 +11,8 @@ num_to_text = { 0 : 'zero', 1 : 'one', 2 : 'two', 3 : 'three', 4 : 'four', 5 : '
           19 : 'nineteen', 20 : 'twenty', 25: 'twenty five', 26: 'twenty six',
           30 : 'thirty', 40 : 'forty', 50 : 'fifty', 60 : 'sixty',
           70 : 'seventy', 80 : 'eighty', 90 : 'ninety' }
-
+# La verdad es que el tema de git no es para un momento.
+# Hay que dedicar tiempo a probar por uno mismo porque solo se entiende viendo cómo funciona
 
 try:
     f = open(filename, "r")
