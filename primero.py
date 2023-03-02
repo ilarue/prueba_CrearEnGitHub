@@ -1,8 +1,6 @@
 import sys
 import csv
-# we can change something in order to view the differences and so
-#filename = "./data.txt"
-#filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.txt"
+# Estoy modificando desde la rama master y voy a pullear los cambios a local
 filename = "C:/Users/pruete/Desktop/ComputerScience/Labs/Python_2/Python\data.csv"
 num_to_text = { 0 : 'zero', 1 : 'one', 2 : 'two', 3 : 'three', 4 : 'four', 5 : 'five',
           6 : 'six', 7 : 'seven', 8 : 'eight', 9 : 'nine', 10 : 'ten',
